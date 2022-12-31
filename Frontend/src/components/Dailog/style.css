@@ -1,0 +1,12 @@
+.sub-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 10px !important;
+}
+
+.box-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

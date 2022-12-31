@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'EB Garamond', serif;
+}
+
+:root {
+  --bg-primary-color: #d4d4d4;
+}
+
+h6 {
+  font-size: 15px;
+  font-family: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-component {
+  background-color: var(--bg-primary-color);
+  max-height: fit-content;
+  min-height: 100vh;
+}
+
+.tableData {
+  margin-top: 30px;
+}
+
+.tablecontainer {
+  max-width: 1400px;
+  width: 100%;
+  margin: auto;
+  background-color: white;
+}
+
+.inside-table {
+  padding: 10px;
+}
+
+.icon-close {
+  position: absolute;
+  top: 0;
+  right: -441px;
+}
